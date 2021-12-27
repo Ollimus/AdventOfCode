@@ -8,11 +8,11 @@ var count = Part1();
 
 Console.WriteLine($"Solution for part 1: {count}");
 
-Console.WriteLine("--------- Part 2 ---------");
+//Console.WriteLine("--------- Part 2 ---------");
 
-count = Part2();
+//count = Part2();
 
-Console.WriteLine($"Solution for part 2: {count}");
+//Console.WriteLine($"Solution for part 2: {count}");
 
 
 // Part One Code
@@ -26,7 +26,6 @@ int Part1()
         if (i > previous && previous != null)
         {
             count++;
-            Console.WriteLine($"Comparison: {i} - Previous: {previous}");
         }
 
         previous = i;
@@ -47,7 +46,6 @@ int Part2()
         if (i > previous && previous != 0)
         {
             count++;
-            Console.WriteLine($"Comparison: {i} - Previous: {previous}");
         }
 
         previous = i;
